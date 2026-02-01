@@ -93,7 +93,9 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
       <img src="./images/image7.gif" alt="Celebration duckie" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
       Yay! I love you Timilehin! 💕
     `;
-    valentineQuestion.style.textAlign = "center"; 
+    valentineQuestion.style.textAlign = "center";
+    valentineQuestion.style.position = "relative";
+    valentineQuestion.style.zIndex = "10"; 
   
     //make image go boing
     const bounceImage = document.createElement("img");
